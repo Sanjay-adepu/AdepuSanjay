@@ -98,12 +98,7 @@ const Footer = () => {
             <p className="text-gray-600 text-sm">
               © 2024 {personalInfo.name}. All rights reserved.
             </p>
-            <motion.p 
-              className="text-gray-600 text-sm flex items-center mt-2 md:mt-0"
-              whileHover={{ scale: 1.05 }}
-            >
-              Made with <Heart className="w-4 h-4 mx-1 text-red-500" fill="currentColor" /> and code
-            </motion.p>
+            
           </div>
         </div>
       </div>
